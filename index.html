@@ -19,13 +19,19 @@
         <div class="container right-side">
             <h1>Login</h1>
             <form>
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="john@example.com">
-                <label for="password">Password</label>
-                <input type="password" id="password" placeholder="At least 8 characters">
-                <input type="checkbox" id="terms_conditions">
-                <label for="terms_conditions">By creating an account, you agree to the <a href="#">Terms & Conditions</a>.</label>
-                <button>Create an Account</button>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="john@example.com">
+                </div>
+                <div>    
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="At least 8 characters">
+                </div>
+                <div id="lastdiv">
+                    <input type="checkbox" id="terms_conditions">
+                    <label for="terms_conditions" id="l_terms">By creating an account, you agree to the <a href="#">Terms & Conditions</a>.</label>
+                </div>    
+                <button id="create"><span>Create an Account</span></button>
             </form>
 
         </div>
